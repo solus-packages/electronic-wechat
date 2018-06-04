@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Electronic WeChat
+Name[zh_CN]=微信客户端
+Comment=Wechat instant messenger client
+Comment[zh_CN]=微信即时通信客户端
+Exec=/usr/bin/electronic-wechat
+Type=Application
+Icon=electronic-wechat
+Categories=Network;InstantMessaging;Application;
+Terminal=false
+StartupNotify=true

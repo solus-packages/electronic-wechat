@@ -1,0 +1,37 @@
+<PISI>
+    <Source>
+        <Name>electronic-wechat</Name>
+        <Packager>
+            <Name>Longwu Ou</Name>
+            <Email>xulongwu4@gmail.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>network.im</PartOf>
+        <Summary xml:lang="en">WeChat is a Chinese multi-purpose social media, instant messaging and VoIP mobile application software developed by Tencent</Summary>
+        <Description xml:lang="en">WeChat is a Chinese multi-purpose social media, instant messaging and VoIP mobile application software developed by Tencent. In order to use the unofficial desktop client electronic-wechat, you must sync your mobile WeChat account by scanning a QR code. While the application itself is open source, the protocol itself is proprietary and conversations are intercepted and censored. Use with caution.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>electronic-wechat</Name>
+        <Summary xml:lang="en">WeChat is a Chinese multi-purpose social media, instant messaging and VoIP mobile application software developed by Tencent</Summary>
+        <Description xml:lang="en">WeChat is a Chinese multi-purpose social media, instant messaging and VoIP mobile application software developed by Tencent. In order to use the unofficial desktop client electronic-wechat, you must sync your mobile WeChat account by scanning a QR code. While the application itself is open source, the protocol itself is proprietary and conversations are intercepted and censored. Use with caution.
+</Description>
+        <PartOf>network.im</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/applications/electronic-wechat.desktop</Path>
+            <Path fileType="data">/usr/share/electronic-wechat</Path>
+            <Path fileType="data">/usr/share/pixmaps/electronic-wechat.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-05-31</Date>
+            <Version>2.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Longwu Ou</Name>
+            <Email>xulongwu4@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

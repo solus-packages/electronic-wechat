@@ -1,0 +1,30 @@
+name       : electronic-wechat
+version    : 2.0
+release    : 1
+source     :
+    - https://github.com/geeeeeeeeek/electronic-wechat/archive/V2.0.tar.gz : 3e74f9d03a717d53f6169735dcc8db513e6e9202855057163d189ee28a031602
+license    : MIT
+component  : network.im
+summary    : WeChat is a Chinese multi-purpose social media, instant messaging and VoIP mobile application software developed by Tencent
+description: |
+    WeChat is a Chinese multi-purpose social media, instant messaging and VoIP mobile application software developed by Tencent. In order to use the unofficial desktop client electronic-wechat, you must sync your mobile WeChat account by scanning a QR code. While the application itself is open source, the protocol itself is proprietary and conversations are intercepted and censored. Use with caution.
+networking : yes
+builddeps  :
+    - pkgconfig(alsa)
+    - pkgconfig(gconf-2.0)
+    - pkgconfig(gtk+-2.0)
+    - pkgconfig(ImageMagick)
+    - pkgconfig(xtst)
+    - git
+    - nodejs
+build      : |
+    npm install
+    npm run build:linux
+install    : |
+    install -dm00755 $installdir/usr/share/electronic-wechat
+    cp -R $workdir/dist/electronic-wechat-linux-x64/* $installdir/usr/share/electronic-wechat
+
+    install -dm00755 $installdir/usr/bin
+    ln -sv /usr/share/electronic-wechat/electronic-wechat $installdir/usr/bin/electronic-wechat
+    install -Dm00644 $pkgfiles/electronic-wechat.desktop $installdir/usr/share/applications/electronic-wechat.desktop
+    install -Dm00644 $workdir/assets/icon.png $installdir/usr/share/pixmaps/electronic-wechat.png
