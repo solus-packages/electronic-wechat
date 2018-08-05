@@ -1,6 +1,6 @@
 name       : electronic-wechat
 version    : 2.0
-release    : 1
+release    : 2
 source     :
     - https://github.com/geeeeeeeeek/electronic-wechat/archive/V2.0.tar.gz : 3e74f9d03a717d53f6169735dcc8db513e6e9202855057163d189ee28a031602
 license    : MIT

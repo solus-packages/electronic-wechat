@@ -2,8 +2,8 @@
     <Source>
         <Name>electronic-wechat</Name>
         <Packager>
-            <Name>Longwu Ou</Name>
-            <Email>xulongwu4@gmail.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>network.im</PartOf>
@@ -19,19 +19,88 @@
 </Description>
         <PartOf>network.im</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/electronic-wechat</Path>
             <Path fileType="data">/usr/share/applications/electronic-wechat.desktop</Path>
-            <Path fileType="data">/usr/share/electronic-wechat</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/LICENSE</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/LICENSES.chromium.html</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/blink_image_resources_200_percent.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/content_resources_200_percent.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/content_shell.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/electronic-wechat</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/icudtl.dat</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/libffmpeg.so</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/libnode.so</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/am.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/ar.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/bg.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/bn.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/ca.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/cs.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/da.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/de.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/el.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/en-GB.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/en-US.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/es-419.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/es.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/et.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/fa.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/fake-bidi.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/fi.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/fil.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/fr.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/gu.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/he.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/hi.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/hr.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/hu.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/id.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/it.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/ja.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/kn.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/ko.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/lt.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/lv.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/ml.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/mr.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/ms.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/nb.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/nl.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/pl.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/pt-BR.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/pt-PT.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/ro.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/ru.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/sk.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/sl.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/sr.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/sv.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/sw.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/ta.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/te.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/th.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/tr.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/uk.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/vi.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/zh-CN.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/locales/zh-TW.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/natives_blob.bin</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/resources/app.asar</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/resources/electron.asar</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/snapshot_blob.bin</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/ui_resources_200_percent.pak</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/version</Path>
+            <Path fileType="data">/usr/share/electronic-wechat/views_resources_200_percent.pak</Path>
             <Path fileType="data">/usr/share/pixmaps/electronic-wechat.png</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2018-05-31</Date>
+        <Update release="2">
+            <Date>2018-08-04</Date>
             <Version>2.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Longwu Ou</Name>
-            <Email>xulongwu4@gmail.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>
